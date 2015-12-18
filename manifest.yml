@@ -1,0 +1,11 @@
+---   
+applications:
+- name: TransitionalSampleJava
+  services:
+  - sendgrid-email
+  - Workload Scheduler-dq
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  disk_quota: 1024M
+  path: TransitionalSampleJava.war

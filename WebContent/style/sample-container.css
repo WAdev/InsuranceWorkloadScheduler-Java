@@ -1,0 +1,151 @@
+body {
+    overflow-x: hidden;
+}
+
+.description {
+	margin-top: 40px;
+	font-size: 13px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	background-color: #D9F2F1;
+}
+
+.container {
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.description h1 {
+  font-size: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.header-container {
+}
+
+.image-logo {
+  position: relative;
+  height: 25px;
+  margin-top: -5px;
+}
+
+.navbar-collapse, .navbar-header {
+	background-color: #003E68;
+	color: white;
+}
+
+.navbar-nav .active {
+		background-color: #003E68;
+	color: white;
+
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active {
+	background-color: #269CC9 !important;
+	color: white !important;
+	font-weight: bold;
+	border-bottom: 3px solid white;
+	height: 51px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white !important;
+	border-bottom: 1px solid white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+	color: #269CC9 !important;
+	background-color: #B2DCEC !important;
+}
+
+.provisioning-column .column div{
+	padding-left: 10px;
+	padding-left: 10px;
+}
+
+.provisioning-column {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #269CC9 !important;
+
+}
+
+label {
+	font-size: 13px;
+}
+
+.form-control {
+	height: 25px;
+}
+
+input {
+	font-size: 15px;
+}
+
+p {
+	font-size: 15px;
+}
+
+.btn-default {
+  color: white;
+  background-color: #008682;
+  border-color: #008682;
+}
+
+.btn-default:hover {
+  color: #008682;
+  background-color: white;
+  border-color: #008682;
+}
+
+.application-title {
+  top: 14px;
+  padding-right: 45px;
+  font-weight: bold;
+  font-size: 18px;
+  position: relative;
+}
+
+#monitoring-container {
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+.loading-show {
+    background-color: black;
+    color: white;
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.5;
+    padding-left: 45%;
+    padding-top: 15%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 9000;
+}
+
+.loading-hide {
+	display: none;
+}
+
+.form-control { 
+	width: 100%;
+}
+
+.submit-button-container {
+	padding-left: 35px;
+	padding-top: 10px;
+}
+
+.reload-button {
+    margin-left: 16px;
+}
